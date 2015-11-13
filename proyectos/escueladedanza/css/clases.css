@@ -1,0 +1,29 @@
+.styleimg{
+	background-size: 100%;
+	background-position: center;
+	height: 425px; 
+}
+.boxclass{
+	width: 95%;
+	background-color: black; 
+	opacity: 0.5;
+	margin: 50% auto;
+}
+.clase1{
+	background-image: url("../img/dance_12.jpg");
+}
+.clase2{
+	background-image: url("../img/breakdance.jpg");
+}
+.clase3{
+	background-image: url("../img/lirical-jazz.jpg");
+}
+.clase4{
+	background-image: url("../img/arabe.jpg");
+}
+.clase5{
+	background-image: url("../img/little.jpg");
+}
+.clase6{
+	background-image: url("../img/yoga.jpg");
+}

@@ -1,0 +1,30 @@
+.bgblog{
+	background-color: #cfd8dc;
+	height: 290px;
+}
+.styleimg{
+	background-size: cover;
+	background-position: center;
+	height: 290px;
+	background-repeat: no-repeat;
+}
+.blog1{
+	background-image: url("../img/blog1.jpg");
+}
+.blog2{
+	background-image: url("../img/profesor_5.jpg");
+}
+.blog3{
+	background-image: url("../img/instructor_1.jpg");
+}
+button{
+	background: #192951;
+	padding: 2% 8%;
+	margin-left: 5%;
+	margin-bottom: 7%;
+	border-radius: 5px;
+	width: 35%;
+}
+button:hover{
+	background: #323232;
+}

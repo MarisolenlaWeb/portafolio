@@ -1,0 +1,52 @@
+.cover{
+	background-image: url("../img/dance_7.jpg");
+	background-size: 145%;
+	background-position: 2% 40%;
+	height: 400px;
+}
+.box{
+	width: 80%;
+	background-color: black; 
+	opacity: 0.5;
+	margin: 20% auto;
+}
+.box h2{
+	padding: 10% 0 3%;
+}
+.bg1{
+	background-image: url("../img/cubes.png");
+}
+.imginst{
+	background-size: 100%;
+	background-position: top;
+	height: 165px; 
+}
+.prof1{
+	background-image: url("../img/profesor_4.jpg");
+}
+.prof2{
+	background-image: url("../img/profesor_14.jpg");
+}
+.prof3{
+	background-image: url("../img/profesor_1.jpg");
+}
+.prof4{
+	background-image: url("../img/profesor_10.jpg");
+}
+.prof5{
+	background-image: url("../img/profesor_11.jpg");
+}
+.prof6{
+	background-image: url("../img/profesor_12.jpg");
+}
+.prof7{
+	background-image: url("../img/profesor_9.jpg");
+}
+.prof8{
+	background-image: url("../img/profesor_15.jpg");
+}
+h3{
+	padding: 5% 0;
+	font-family: LatoHeavy;
+}
+

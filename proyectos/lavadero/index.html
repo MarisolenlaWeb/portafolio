@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<!--
+   ___      __              __                          __                                     __     
+   /  /     /\ \            /\ \                        /\ \__                __               /\ `\   
+  /  /      \ \ \        __ \ \ \____   ___   _ __   __ \ \ ,_\   ___   _ __ /\_\     __       \ `\ `\ 
+/<  <        \ \ \  __ /'__`\\ \ '__`\ / __`\/\`'__/'__`\\ \ \/  / __`\/\`'__\/\ \  /'__`\      `\ >  >
+\ `\ `\       \ \ \L\ /\ \L\.\\ \ \L\ /\ \L\ \ \ \/\ \L\.\\ \ \_/\ \L\ \ \ \/ \ \ \/\ \L\.\_      /  / 
+ `\ `\_|       \ \____\ \__/.\_\ \_,__\ \____/\ \_\ \__/.\_\ \__\ \____/\ \_\  \ \_\ \__/.\_\    /\_/  
+   `\//         \/___/ \/__/\/_/\/___/ \/___/  \/_/\/__/\/_/\/__/\/___/  \/_/   \/_/\/__/\/_/    \//   
+                                                                                                       
+                                                                                                       
+                                                                    ____                               
+                                           /'\_/`\      /'\_/`\    /\  _`\                             
+                                          /\      \    /\      \   \ \ \/\_\                           
+                                          \ \ \__\ \   \ \ \__\ \   \ \ \/_/_                          
+                                           \ \ \_/\ \   \ \ \_/\ \   \ \ \L\ \                         
+                                            \ \_\\ \_\   \ \_\\ \_\   \ \____/                         
+                                             \/_/ \/_/    \/_/ \/_/    \/___/                          
+                                                                                   
+-->
+<head>
+	<meta charset="utf-8">
+	<!--Incluimos los metadatos que conocemos, aquellos que permiten a los motores de búsqueda de los navegadores darnos la página como los primeros resultados; fueron copiados directamente del original.-->
+	<meta name="description" content="Lavadero te ofrece servicio de recolección y entrega a domicilio de lavandería y tintorería en DF, Ciudad de Mexico. Haz una orden y con un par de clicks desaparece tu ropa sucia.">
+	<meta name="keywords" content="lavandería, tintorería, planchado, servicio a domicilio, DF, ciudad de mexico,">
+	<meta property="og:site_name" content="Lavadero.mx - Servicio de lavandería y tintorería a domicilio en Ciudad de Mexico">
+	<meta property="og:description" content="Lavadero te ofrece servicio de recolección y entrega a domicilio de lavandería y tintorería en DF, Ciudad de Mexico. Haz una orden y con un par de clicks desaparece tu ropa sucia.">
+	<title>Lavadero.mx</title>
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/ico" href="favicon.ico">
+</head>
+<body>
+	<header ><!--Barra transparente con logotipo y botón de Ordenar-->
+		<div class="backgroundheader">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<a href="#"><img class="logotype" src="img/logo.png"></a>
+					</div>
+					<div class="col-5">
+						<p class="display">¿Tienes cuenta?</p>
+					</div>
+					<div class="col-1">
+						<button class="orderbutton"><a href="#">Entra</a></button> <!--Botón "Ordena" Originalmente era un elemento de lista, pero lo estamos colocando como botón-->
+					</div>
+				</div>
+			</div>	
+		</div>
+	</header>
+	<section class="first"><!--Para facilitar la modificación de css; cada sección está marcada por un background diferente y se hace alusión a ello en el inicio y término de cada sección del css.-->
+			<div class="container">	
+					<div class="col-12">
+						<h3>Ropa Limpia en 24 horas, sin salir de casa.</h3><!--Zona del primer texto e imagen del primer background-->
+							<p>La ropa sucia ya no se lava en casa.</p>
+					</div>
+				<div class="row">
+					<form class="col-7 form">
+				           <input type='text' placeholder='Escribe tu código postal' required><!--Formulario; se le puede modificar el estilo con la clase form del css.-->
+				 	</form>
+					<div class="col-5 marginbutton">
+						<button class="washbutton"><a href="#">Lavar ropa</a></button>
+					</div>
+				</div>
+			</div>			
+	</section>
+	<section class="rownavy"><!--Corresponde al renglón azul oscuro justo debajo del primer background con fotografía-->
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="mtb-5">¡Te regalamos 4 kg en tu primera lavada! <a class="font-blue" href="#">Usa el código</a> "ROPALIMPIA".</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="services"><!--En esta sección se localizan los servicios que ofrece lavadero; cada una de las animaciones intentó recrear un tipo de servicio; la zona de lavado gira como lavadora, la zona de tintorería es un lavado delicado y el planchado simula el movimiento de la plancha-->
+		<div class="container">
+			<div class="row mtb-10">
+				<div class="col-1">
+					<img class="stylegraf wash" src="img/graf1.png">
+				</div>
+				<div class="col-3">
+					<div class="stylep">
+						<p class="service">Lavandería</p>
+						<p class="time">Entregamos en 24 horas</p>
+					</div>
+				</div>
+				<div class="col-1">
+					<img class="stylegraf drycleaner" src="img/graf2.png">
+				</div>
+				<div class="col-3">
+					<div class="stylep">
+						<p class="service">Tintorería</p>
+						<p class="time">Entregamos en 48 horas</p>
+					</div>
+				</div>
+				<div class="col-1">
+					<img class="stylegraf iron" src="img/graf3.png">
+				</div>
+				<div class="col-3">
+					<div class="stylep">
+						<p class="service">Planchado</p>
+						<p class="time">Entregamos en 48 horas</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="second"><!--Segunda sección con background de fotografía-->
+		<div class="container"><!--¿Por qué usar lavadero?-->	
+			<div>
+				<div class="row">
+					<div class="col-12">
+						<h3 class="zoomIt">¿Por qué usar Lavadero?</h3>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-6">
+						<ul class="m1">	
+							<li class="zoomIt"><img src="img/paloma.png"><p>Somos súper puntuales</p></li>
+							<li class="zoomIt"><img src="img/paloma.png"><p>Vamos hasta tu casa u oficina</p><br><p>de 8 am a 10 pm</p>
+							</li>
+							<li class="zoomIt"><img src="img/paloma.png"><p>Dejamos tu ropa impecable</p></li>
+						</ul>
+					</div>
+					<div class="col-6">
+						<ul class="m2">	
+							<li class="zoomIt"><img src="img/paloma.png"><p>Ordenas en línea</p></li>
+							<li class="zoomIt"><img src="img/paloma.png"><p>Pagas con tarjeta de Débito,</p><br><p>Crédito,Pay Pal o en efectivo</p></li>
+							<li class="zoomIt"><img src="img/paloma.png"><p>Entregamos en 24 horas</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>	
+				<div class="row"><!--Trapitos-->
+					<div class="col-12">
+						<h2 class="text-white zoomIt">¿Listo para sacar tus trapitos?</h2>
+					</div>
+				</div>	
+				<div class="col-12 aling">	
+					<button class="washbutton"><a class="font-size-20 text-white" href="#">Lavar ropa</a></button> 
+				</div>				
+	</section>		
+	<section class="garanty"><!--Es la sección que tiene el sello de garantía en la página-->
+		<div class="container">
+			<div class="row mtb-5">
+				<div class="col-5">
+					<img class="ml-30 zoomIt" src="img/ga.png">
+				</div>
+
+				<div class="col-7">
+					<h3 clas="zoomIt">Nuestra garantía</h3><!--Garantía-->
+					<ul class="lchecked">
+						<li>✓ Tu ropa siempre a salvo: en la lavadora y en camino.</li>
+						<li>✓ ¿Tienes dudas? Respondemos en tiempo récord.</li>
+						<li>✓ Si no estas contento con el servicio, te devolvemos tu dinero.</li>
+						<li>✓ Sin pretextos: entregamos siempre a tiempo. </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="banner1"> <!--Banner automático con recomendaciones de los usuarios; consta de dos carruceles cincronizados en un mismo elemento con las mismas animaciones y clases-->
+            <div class="slider1">
+                <div class="slider-box">
+                    <div class="slider-element">
+                        <article class="element-one">
+                            <img class="testimony" src="img/franny.jpg">
+                        </article>
+                    </div>
+                    <div class="slider-element">
+                        <article class="element-two">   
+                            <img class="testimony" src="img/tony.jpg">        
+                        </article>
+                    </div>
+                    <div class="slider-element">
+                        <article class="element-trhee">
+                            <img class="testimony" src="img/hannibal.jpg">
+                        </article>                            
+                    </div>
+                </div>
+            </div>
+                <div class="slider2">    
+                    <div class="slider-box">
+                        <div class="slider-element">
+                            <article class="element-one">
+                                <p class="user">Franny Sinclair</p>
+                                <p class="us">"Me deja el tiempo necesario para disciplinar a Earl."</p>
+                            </article>
+                        </div>
+                        <div class="slider-element">
+                            <article class="element-two">
+                                <p class="user">Tony Stark Iron Man</p>
+                                <p class="us">"El lugar perfecto para llevar mi armadura; queda reluciente y sin temor a que pierdan piezas."</p>
+                            </article>
+                        </div>
+                        <div class="slider-element">
+                            <article class="element-trhee">
+                                <p class="user">Hannibal Lecter</p>
+                                <p class="us">"Son capaces de borrar hasta las manchas más delatoras."</p>
+                            </article>                            
+                        </div>
+                    </div>
+                </div>              
+    </section>      
+	<section><!--Calcula tu orden.-->	
+		<div class="container">
+			<div class="row mtb-5">
+				<div class="col-2"></div>
+				<div class="col-4">
+					<h3 class="zoomIt">¿Cuánto cuesta?</h3>
+					<p class="mtb-10">El pedido mínimo es de 4 kg
+					(unos<br> tres días de ropa), o
+					$120.00 entre <br> lavandería, tintoreria y planchado.</p>
+					<button class="washbutton2 washbutton blue">Calcula tu orden</button>
+				</div>
+				<div class="col-5">
+					<img class="lastone ml-20 zoomIt" src="img/bolsa.png">
+				</div>
+			</div>
+		</div>		
+	</section>	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<img src="img/testimonioblanco.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<a class="block" href="#">Preguntas frecuentes</a>
+					<a class="block" href="#">Precios</a>
+					<a class="block" href="#">Únete al equipo</a>
+					<a class="block" href="#">Blog</a>
+				</div>
+				<div class="col-4">
+					<p>Síguenos en: 
+					<div class="pad">	
+						<li><img class="icons" src="img/Twitter.png"><p><a href="#">@usalavadero</a></li></p>
+						<li><img class="icons" src="img/facebook.png"><p><a href="#">facebook.com/usalavadero</a></li></p>
+						<li><img class="icons" src="img/instagram.png"><p><a href="#">usalavadero</a></li></p>
+					</div>	
+					</p>
+				</div>
+				<div class="col-4">
+					<p>
+						Contacto:
+					<div class="pad">	
+						<li><img class="icons" src="img/mail.png"><p>Escríbenos: </p><a href="#">hola@lavadero.co</a></li>
+						<li class"mn" ><img class="icons" src="img/tel.png"><a href="#"><p>Llámanos: 55 1209 0146</p></a></li>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 pad">
+					<p class="copy">Lavadero LATAM, 2015 &#169 Todos los derechos reservados.<a class="copy font-blue" href="#">Términos y Condiciones</a> | <a class="copy font-blue" href="#">Política de Privacidad</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

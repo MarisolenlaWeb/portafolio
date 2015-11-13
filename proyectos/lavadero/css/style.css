@@ -1,0 +1,484 @@
+/*Estilos generales*/
+*{
+	font-family: Helvetica, Sans-Serif;
+}
+h3{
+	font-size: 35px;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+.zoomIt{
+-webkit-transition:-webkit-transform .5s ease-out;
+-moz-transition:-moz-transform .5s ease-out;
+-o-transition:-o-transform.5s ease-out;
+-ms-transition:-ms-transform .5s ease-out;
+transition:transform .5s ease-out;
+}
+.zoomIt:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+.font-blue{
+	color: #73cddb;
+}
+.mtb-10{
+	margin: 10% 0;
+}
+.mtb-5{
+	margin: 5% 0;
+}
+.ml-30{
+	margin-left: 30%;
+}
+.ml-20{
+	margin-left: 20%;
+}
+.text-white{
+	color:#fff;
+}
+.text-center{
+	text-align: center;
+}
+/*Inicia estilo header*/
+.backgroundheader{
+	background: linear-gradient(to top, rgba(000,0,0,0.0), rgba(000,0,0,0.7));
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+.logotype{
+	padding: 5% 0 10%;
+}
+/*Estilo para el botón del header "Ordenar*/
+.orderbutton{
+	font-size: 15px;
+	background: none;
+	border: none;
+	float: right;
+	padding: 8px 15px;
+	margin: 60% 0 10%;
+	position: relative;
+	cursor: pointer;
+}
+.display{
+	display: inline;
+	color:#fff;
+	float:right;
+	font-size: 12px;
+	margin-top:12%;
+}
+.orderbutton a{
+	text-decoration: none;
+	color: #fff;
+}
+.orderbutton:hover{
+	border: 2px solid #fff;
+	border-radius: 10%;
+}
+/*Termina estilo header*/
+/*Estilo primera sección*/
+.first{
+	background-image: url("../img/background1.jpg");
+	background-size: cover;
+	height: 630px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.first h3{
+	color:#fff;
+	text-align: center;
+	margin-top: 30%;
+}
+.first p{
+	text-align: center;
+	color: #fff;
+	line-height: 1.5%;
+}
+/*Formulario*/
+form{
+	margin-top: 7%;
+	margin-left: -4%;
+}
+.marginbutton{
+	margin-top: 4%;
+	margin-left: -2%;
+}
+.ml-10{
+	margin-left: -5%;
+}
+input{
+	border:none;
+	width: 160px;
+	color:gray;
+	font-size: 15px;
+	border-bottom: 3px solid #fff;
+	padding-bottom: 1%;
+	background-color: transparent;
+}
+.form{
+	text-align: right;
+}
+/*Botón "Lavar ahora"*/
+.washbutton {/*Las  animaciones del background del botón
+funcionan sólo en Safari/Chrome */
+   font: 20px Helvetica;
+    border-style: none;
+	background-color: #f50057;
+	padding: 2% 4% 2%;
+	margin:1.5%;
+	margin-top: 5%;
+    background-position: bottom left, top right, 0 0, 0 0;
+    background-clip: border-box;
+    -moz-box-shadow: 0 0 1px #fff inset;
+    -webkit-box-shadow: 0 0 1px #fff inset;
+    box-shadow: 0 0 1px #fff inset;
+    cursor: pointer;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 1s;
+}
+.washbutton:hover {
+    background-position: top left;
+    background-position: top left, bottom right, 0 0, 0 0;
+}
+.washbutton:active {
+    bottom: -1px;
+}
+.washbutton {
+    color: #fff !important;
+    background-color: #f50057; 
+}
+.washbutton2 {
+    background-color: #73cddb; 
+    padding: 5%;
+}
+.washbutton2:hover {
+    background-color: #f50057;
+    background-image: url("../img/bubble.png"), url("../img/bubble.png"),
+	-moz-radial-gradient(    center bottom, circle,
+	rgba(245,0,87,1) 0,rgba(245,0,87,0) 100px),
+	-moz-linear-gradient(#f50057, #f50057);
+    background-image: url("../img/bubble.png"), url("../img/bubble.png"),
+	-webkit-gradient(    radial, 50% 100%, 0, 50% 100%, 100,
+	from(rgba(245,0,87,1)), to(rgba(245,0,87,0))),
+	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f50057), to(#f50057));
+}
+.washbutton:hover {
+    background-color: #73cddb;
+    background-image: url("../img/bubble.png"), url("../img/bubble.png"),
+	-moz-radial-gradient(    center bottom, circle,
+	rgba(115,205,219,1) 0,rgba(115,205,219,0) 100px),
+	-moz-linear-gradient(#73cddb, #73cddb);
+    background-image: url("../img/bubble.png"), url("../img/bubble.png"),
+	-webkit-gradient(    radial, 50% 100%, 0, 50% 100%, 100,
+	from(rgba(115,205,219,1)), to(rgba(115,205,219,0))),
+	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#73cddb), to(#73cddb));
+}
+/*Termina estilo de washbutton*/
+/*Termina el total de estilo de primera sección*/
+/*Sección rownavy*/
+.rownavy{
+	background-color: #2E3942;
+	margin-top: 0;
+}
+.rownavy p{
+	color:#fff;
+	text-align: center;
+}
+/*Termina sección rownavy*/
+/*Inicia sección services*/
+.stylegraf{
+	width: 160%;
+	margin-left: 10%;
+	margin-left: 20%
+}
+.stylep{
+	line-height: 1.5;
+	padding-left: 25px;
+}
+.service{
+	font-size: 35px;
+	color:#2E3942;
+}
+.time{
+	font-size: 14px;
+	color:#73cddb;
+}
+.wash{
+ 	-webkit-transition: -webkit-transform 1s ease-out;
+ 	-moz-transition: -moz-transform 1s ease-out;
+ 	transition: transform 1s ease-out;
+}
+.wash:hover{
+	-webkit-transform: rotate(720deg);
+ 	-moz-transform: rotate(720deg);
+ 	transform: rotate(720deg) infinite;
+ 	cursor: default;
+ }
+@-webkit-keyframes tiembla{
+	0%  { -webkit-transform:rotateZ(-5deg); }
+	50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+	100%{ -webkit-transform:rotateZ( 5deg); }
+}
+.drycleaner:hover{
+	-webkit-animation: tiembla 0.2s;
+	animation-iteration-count: 5;
+	cursor: default;
+}
+.iron:hover{
+  -webkit-animation: 1s bote 5;
+  cursor: default;
+}
+
+@-webkit-keyframes bote {
+  20%, 50%, 80% {
+    -webkit-transform: translateX(0);
+  }
+
+  40% {
+    -webkit-transform: translateX(20px);
+  }
+
+  65% {
+   -webkit-transform: translateX(20px);
+  }
+}
+/*Termina seccion services*/
+/*Inicia seccion second; segundo background de fotografía*/
+.second{
+	background-image:url("../img/background2.jpg ");
+	background-size: 100%;
+	width: 100%;
+	height:560px;
+	
+} 
+.second h3{
+	color:#fff;
+	text-align: center;
+}
+h5{
+	color:#fff;
+	font-weight: lighter;
+	font-size: 20pt;
+	text-align: center;
+	margin: 8%;
+
+}
+/*¿Porqué usar lavadero?*/
+li img{
+	width:20px;
+}
+.m1{
+	margin-left: 35%;
+	padding-right: 3%;
+}
+.m2{
+	margin-right: 35%;
+	padding-left:3%;
+}
+li br+p{
+	padding-left: 7.5%;	
+}
+ul li{
+	margin-bottom: 15%
+}
+li p{
+	display: inline;
+	color: #fff;
+	margin-left: 3%;
+	font-weight: lighter;
+	font-size: 12pt;
+}
+.aling{
+	text-align: center;
+}
+
+/*Termina ¿Porqué usar lavadero?*/
+/*Inicia garanty*/
+h2{
+	text-align: center;
+	margin-top: 3%;
+	font-weight: lighter;
+	font-size: 18px;
+	color: #fff;
+}
+/*lista palomeada2*/
+ul.lchecked li{
+	margin: 0px;
+	font-size: 18px
+}
+h3,li{
+	color:#585858;
+	font-weight: lighter;
+}
+li{
+	list-style: none
+}
+h3{
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+/*Inicia sección del banner*/
+.banner1{
+    background-color:#2E3942;
+}
+.testimony{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    margin-top: 15%;
+}
+.us{
+    color:#fff;
+    margin:5%;
+    margin-bottom:5%;
+    text-align: center;
+}
+.user{
+    color: #73cddb;
+    margin:10%;
+    margin-top:20%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.slider-box {
+    animation: autoSlider 20s infinite linear;
+    transition: all 0.7s ease;
+    height: 100%;
+    width: 300%;
+}
+.slider1 {
+    height: 20%; 
+    margin:auto;
+    overflow: hidden;
+    text-align: left;
+    background-color:#fff; 
+    text-align: center;
+    margin-top:-5%;
+}
+.slider2{
+    height: 20%;
+    margin:auto;
+    margin-top: -7%;
+    overflow: hidden;
+    text-align: left;
+    background-color:#2E3942; 
+    text-align: center;
+    color:#fff;
+}
+
+.element-trhee,
+.element-two,
+.element-one {
+    max-height: 100%;
+    width: 40%;
+    margin: auto;
+    background-color:transparent;
+}
+
+.slider-element {
+    float: left;
+    width: 33.333%;
+}
+
+@keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+/*Calcula tu orden e imagen de garantía.*/
+div.col-4 img{
+	margin: 5%;
+	margin-top: 2%;
+}
+.r{
+	text-align: right;
+}
+.banner{
+	width: 200px;
+	height: 200px;
+	border:1px;
+	border-color: red;
+	border-radius: 50%;
+	margin:auto;
+	margin-top: 5%;
+	background-size: 100% 100%;
+	
+}
+/*Termina sección del banner*/
+.text{
+	background: #2e3942;
+	color:#fff;
+}
+.lastone{
+	width: 60%;
+	height: auto;
+}
+/*Inicia footer*/
+footer{
+
+	background-color: #2E3942;
+	padding-bottom: 5%;
+	margin-top: 2%;
+}
+div.col-4 a{
+	color: #73cddb;
+}
+
+footer p{
+	color:#fff;
+}
+.copy{
+	display: inline;
+	text-align: left;
+}
+
+.pad{
+	padding-top: 3%;
+}
+.icons{
+	margin: 0px!important;
+	padding: 0px!important;
+	display: inline;
+	width:14px;
+	}
+
+li a {
+	display: inline;
+}
+div.col-12 img{
+	width: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.block{
+	display: block;
+}
+/*Termina footer*/
